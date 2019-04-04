@@ -15,7 +15,7 @@
           <% if current_user == micropost.user %>
             <%= link_to "Delete", micropost, method: :delete, data: { confirm: "You sure?" }, class: 'btn btn-danger btn-xs' %>
           <% else %>
-            <%= render partial: 'favorites/favorite_button', locals: { micropost: micropost, favorites: @favorites } %>
+            <%= render partial: 'favorites/favorite_button', locals: { micropost: micropost } %>
           <% end %>
         </div>
       </div>
