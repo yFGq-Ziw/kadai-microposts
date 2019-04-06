@@ -1,3 +1,11 @@
+#global_navi ul {
+    list-style: none;
+/*
+    margin: 100;
+    padding: 100;
+*/
+}
+
 #global_navi .current {
     color: white;
 }
