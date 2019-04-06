@@ -9,6 +9,8 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @microposts = @user.microposts.order('created_at DESC').page(params[:page])
     counts(@user)
+    controller_name = controller_name  # コントローラ名
+    action_name = action_name  # アクション名
   end
 
   def new
