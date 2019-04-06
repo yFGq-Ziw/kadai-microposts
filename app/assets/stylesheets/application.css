@@ -1,12 +1,12 @@
-#global_navi .current a {
+#global_navi .current {
     color: white;
 }
 
-.current2 {
-    color: white;
-}
+/*
+current2削除 
+*/
 
-#global_navi .drop a {
+#global_navi .drop {
     color: black;
 }
 
