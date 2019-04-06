@@ -1,8 +1,12 @@
-#global_navi div div ul li.current a {
+#global_navi .current a {
     color: white;
 }
 
-#global_navi div div ul li ul.drop a {
+.current2 {
+    color: white;
+}
+
+#global_navi .drop a {
     color: black;
 }
 
